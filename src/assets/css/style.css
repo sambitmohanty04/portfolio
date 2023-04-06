@@ -26,7 +26,7 @@
 
 body {
     font-family: var(--primary-font);
-    background-color: var(--secondary-color) !important;
+    background-color: var(--secondary-color);
 }
 
 a {
@@ -287,8 +287,8 @@ button {
     transform: translateY(-5px);
 }
 .service-wrapper .card img {
-    width: 150px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin-bottom: 20px;
 }
 .service-wrapper i {
@@ -370,8 +370,8 @@ button {
     width: 35px;
     height: 35px;
     display: inline-block;
-    line-height: 25px;
-    font-size: 20px;
+    line-height: 32px;
+    font-size: 15px;
     border: 2px solid var(--text-gray);
     color: var(--text-gray);
     text-align: center;
@@ -395,64 +395,3 @@ button {
     font-size: 11px;
     line-height: 20px;
 }
-.btn-hire {
-  background: none;
-  /* width: 79px; */
-  border: 2px solid #ccc;
-  padding: 5px 14px;
-  border-radius: 20px;
-  color: #ccc;
-  margin: -5px;
- 
-}
-.btn-hire:hover {
-  background-color: var(--primary-color);
-  border-color:var(--primary-text);
-  color:var(--text-white);
-}
-
-/* about me */
-.react-tabs__tab-list {
-  border: 1px solid #aaa !important;
-  /* border-radius: 20px; */
-  color: #7a7a7a;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-
-}
-.react-tabs__tab--selected {
-  background: #fd4766 !important;
-  border-color: #aaa;
-  color: white !important;
-  border-radius: 2px !important;
-}
-.react-tabs__tab {
-  display: inline-block;
-  border: 1px solid transparent;
-  border-bottom: none;
-  bottom: 0px !important;
-  position: relative;
-  list-style: none;
-  padding: 6px 12px;
-  cursor: pointer;
-}
-.react-tabs__tab::after {
-  border-bottom: none !important;
-}
-.progress-skill {
-  font-size: 15px;
-  color: var(--text-gray);
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  display: block;
-  letter-spacing: 2px;
-  font-weight: 500;
-  margin-bottom:10px;
-}
-.progress-skill span {
-  color: #fff;
-}
-
-/* about me */

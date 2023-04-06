@@ -1,0 +1,63 @@
+@media(max-width:991px){
+    section {
+        padding: 30px 0;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    /* navbar */
+    .header-scrolled {
+        height: auto;
+    }
+    .header-wrapper .menu-navbar-nav {
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+    }
+    .header-wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+    .banner-wrapper {
+        padding: 200px 0;
+    }
+    .about-wrapper ul.nav-pills {
+        width: 61%;
+        margin: auto;
+        border:0;
+    }
+    .about-wrapper ul li .nav-link {
+        font-size: 13px;
+    }
+    .portfolio-wrapper .card {
+        min-height: 400px;
+        margin: auto;
+    }
+
+}
+
+@media(max-width:767px){
+    h1 {
+        font-size:40px;
+        line-height: 48px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .portfolio-wrapper .row {
+        margin: auto;
+    }
+    .portfolio-wrapper .card {
+        min-height: 500px;
+        margin: auto;
+    }
+    .footer-wrapper .footer-logo img {
+        width: 120px !important;
+    }
+}
