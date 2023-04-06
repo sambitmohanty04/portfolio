@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <>
         <div className='container'>
-            <h3 className='text-center my-5'>All Projects</h3>
+            <h3 className='text-center my-5'>All Projects here</h3>
         </div>
         
     </>
