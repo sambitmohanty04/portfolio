@@ -1,7 +1,9 @@
 import React from 'react'
+import './home.css'
 import Typewriter from 'typewriter-effect';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import img1 from '../../assets/images/adamsea.png'
 
 const Home = () => {
     return (
@@ -133,7 +135,7 @@ const Home = () => {
                             <div className="card">
                                 <div className="card-body text-md-start text-center">
                                     {/* <i class="fa fa-wrench img-fluid" aria-hidden="true"></i> */}
-                                    <img src="https://www.r2logics.com/content/img/content/graphics-design.png" alt="img" className="img-fluid" />
+                                    <img src="https://www.saijith.in/wp-content/uploads/2017/12/Responsive-Mobile-Blog-1.png" alt="img" className="img-fluid" />
                                     <h3>Graphics Designing</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
@@ -187,6 +189,7 @@ const Home = () => {
                         </div>
                         <div className="row">
                             <div className='progress-skill'>
+                                <img src={img1} alt='img1' className='w-100' />
                                 <p className='mb-0'>Project Name : <span>http://probioticsconsortium.com/</span></p>
                                 <p className='mb-0'>Technology : <span>HTML ,CSS, CSS3, Javascript, Bootstrap4, Jquery</span></p>
                                 <p className='mb-0'>Description : <span>Bioresearch Project. A highly purified and scientifically proven strains of probiotics.</span></p>
@@ -206,6 +209,10 @@ const Home = () => {
                                 <p className='mb-0'>Technology : <span>HTML ,CSS, CSS3, Javascript, Bootstrap4, Jquery, React Js, Sass</span></p>
                                 <p className='mb-0'>Description : <span>It is a bulk email extractor project. </span></p>
                             </div>
+                        </div>
+
+                        <div className='main-btn'>
+                            <button className='btn-view'>View More</button>
                         </div>
                     </div>
                 </div>
