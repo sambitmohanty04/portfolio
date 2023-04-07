@@ -18,7 +18,7 @@ const Header = () => {
                 <div className='container'>
                     <h2 className='logo'>My Portfolio</h2>
                     <ul className='links'>
-                        <li className='links-li' ><Link to='/'></Link>Home</li>
+                        <li className='links-li' ><Link to='/'>Home</Link></li>
                         <li className='links-li'>About me</li>
                         <li className='links-li' ><Link to='/portfolio'>Portfolio</Link></li>
                         <li className='links-li'>Contact</li>

@@ -205,7 +205,7 @@ button {
 }
 
 /* banner */
-.banner-wrapper {
+.banner-wrapper  {
     padding: 200px 0 100px;
     width: 100%;
     height: auto;
@@ -216,7 +216,6 @@ button {
     background-attachment: fixed;
     background-image: url(https://wallpaperaccess.com/full/5651978.png);
 }
-
 /* about */
 .about-wrapper ul.nav-pills{
     border:1px solid var(--text-gray);
@@ -456,3 +455,10 @@ button {
 }
 
 /* about me */
+
+.breadcrumbs {
+    padding: 20px 0;
+    background-color: #ecf8f9;
+    min-height: 40px;
+    margin-top: 120px;
+}
