@@ -1,11 +1,31 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './home.css'
 import Typewriter from 'typewriter-effect';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import img1 from '../../assets/images/adamsea.png'
-
+import {FaUntappd} from 'react-icons/fa'
+ 
 const Home = () => {
+
+    const [scrollToTop, setScrollToTop] = useState(false);
+
+    useEffect(()=>{
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 340) {
+                setScrollToTop(true);
+            } else {
+                setScrollToTop(false);
+            }
+          });
+    },[])
+
+    const bottomToTop = () => {
+        window.scroll({
+          top: 0,
+          behavior: "smooth",
+        });
+    };
+
     return (
         <>
             <section id="home" className="banner-wrapper">
@@ -24,7 +44,7 @@ const Home = () => {
                                 from Bhubaneswar
                             </h1>
                             <div className="mt-4">
-                                <a className="main-btn" href="">
+                                <a className="main-btn" href="./">
                                     Get CV
                                 </a>
                             </div>
@@ -189,7 +209,7 @@ const Home = () => {
                         </div>
                         <div className="row">
                             <div className='progress-skill'>
-                                <img src={img1} alt='img1' className='w-100' />
+                                
                                 <p className='mb-0'>Project Name : <span>http://probioticsconsortium.com/</span></p>
                                 <p className='mb-0'>Technology : <span>HTML ,CSS, CSS3, Javascript, Bootstrap4, Jquery</span></p>
                                 <p className='mb-0'>Description : <span>Bioresearch Project. A highly purified and scientifically proven strains of probiotics.</span></p>
@@ -283,7 +303,8 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
+            <div className='backToTop'><FaUntappd onClick={bottomToTop} /></div>
+                             
         </>
 
     )

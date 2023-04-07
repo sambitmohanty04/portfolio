@@ -3,5 +3,46 @@
     width: 100%;
     height: auto;
 
-    
+    .content {
+        position: relative;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .screen {
+        display: block;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        position: relative;
+        border: 1px solid #b3b3b3;
+        border-radius: 1px;
+        margin: 0 auto;
+    }
+
+    .screen img {
+        bottom: -1210px;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        z-index: 0;
+        margin: 0;
+        padding: 0;
+        -webkit-transition: top 5s;
+        -moz-transition: top 5s;
+        -ms-transition: top 5s;
+        -o-transition: top 5s;
+        transition: bottom 5s;
+    }
+
+    .screen:hover img {
+        bottom: 0;
+        -webkit-transition: all 5s;
+        -moz-transition: all 5s;
+        -ms-transition: all 5s;
+        -o-transition: all 5s;
+        transition: all 5s;
+    }
 }

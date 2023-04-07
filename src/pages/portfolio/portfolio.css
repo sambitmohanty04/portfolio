@@ -2,4 +2,34 @@
   padding: 100px 0;
   width: 100%;
   height: auto;
+}
+.portfolio-wrapper .content {
+  position: relative;
+}
+.portfolio-wrapper .content {
+  position: relative;
+}
+.portfolio-wrapper .screen {
+  display: block;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #b3b3b3;
+  border-radius: 1px;
+  margin: 0 auto;
+}
+.portfolio-wrapper .screen img {
+  bottom: -1210px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  transition: bottom 5s;
+}
+.portfolio-wrapper .screen:hover img {
+  bottom: 0;
+  transition: all 5s;
 }/*# sourceMappingURL=portfolio.css.map */
